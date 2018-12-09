@@ -1,5 +1,4 @@
-// JavaScript Document
-window.onload = function(){
+$(document).ready(function(e) {
 	
 	// Sticky header
 	var header = document.getElementById("header");
@@ -37,13 +36,6 @@ window.onload = function(){
 		}
 	}
 	// End mobile nav
-};
-
-// JQuery
-$(document).ready(function(e) {
-	
-	// Code for the read more buttons
-	// I had to used JQuery to get the previous elements and to slideToggle the appropriate divs
 	
 	// Buttons
 	var readMoreBtn    = $(".read-more-btn"),

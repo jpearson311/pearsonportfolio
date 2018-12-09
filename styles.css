@@ -157,7 +157,7 @@ nav span:last-child {
 
 @font-face {
     font-family: trebuchetNormal;
-    src: url(trebuc.ttf);
+    src: url(trebuc.ttf) format('truetype');
 }
 
 .banner h1 {
@@ -373,7 +373,7 @@ form textarea {
 }
 
 .notifications.hidden {
-	bottom:-36px;
+	bottom:-37px;
 	-webkit-transition:.5s;
 	-moz-transition:.5s;
 	transition:.5s;	
