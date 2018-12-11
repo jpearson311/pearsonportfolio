@@ -83,14 +83,25 @@ header.sticky {
     transform: translate(-50%, -50%);
 }
 
-.linkedin {
+.linkedin, .github {
 	position: absolute;
-    right: 3%;
-    -webkit-transform: translate(0, -50%);
-	-moz-transform: translate(0, -50%);
-	-ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-	width:20px;	
+    -webkit-transform: translate(0, -40%);
+	-moz-transform: translate(0, -40%);
+	-ms-transform: translate(0, -40%);
+    transform: translate(0, -40%);
+	display:inline-block;
+}
+
+.linkedin img, .github img {
+	width:18px;
+}
+
+.linkedin {
+	right: 8%;	
+}
+
+.github {
+	right:1.5%;
 }
 
 nav {
@@ -417,6 +428,9 @@ footer {
 	.logo {
 		width:55%;	
 	}
+	.linkedin {
+		right:6%;	
+	}
 }
 
 @media screen and (min-width:768px){
@@ -428,6 +442,9 @@ footer {
 	}
 	.logo {
 		width:45%;	
+	}
+	.linkedin {
+		right:5%;	
 	}
 	section, .contact-container {
 		max-width:1407px;	
@@ -512,6 +529,9 @@ footer {
 	nav span:last-child {
 		padding:0 0 0 20px;	
 	}
+	.linkedin {
+		right:4%;	
+	}
 	.work {
 		margin: 30px auto 0 auto;
 	}
@@ -571,5 +591,11 @@ footer {
 @media screen and (min-width: 1366px) {
 	.resume .technical-skills {
 		width:45%;	
+	}
+}
+
+@media screen and (min-width: 1680px) {
+	.linkedin {
+		right:3%;
 	}
 }
